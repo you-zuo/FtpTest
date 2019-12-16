@@ -250,7 +250,7 @@ public class FsService extends Service implements Runnable {
     void setupListener() throws IOException {
         listenSocket = new ServerSocket();
         listenSocket.setReuseAddress(true);
-        listenSocket.bind(new InetSocketAddress(1212));
+        listenSocket.bind(new InetSocketAddress(2121));
     }
 
     @Override

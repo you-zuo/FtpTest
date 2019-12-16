@@ -19,9 +19,7 @@ public class FtpUser {
 
         final File rootPath = new File(chroot);
         mChroot = rootPath.isDirectory() ? chroot : Environment.getRootDirectory().getPath();
-        Log.e("Ftp", rootPath.isDirectory() + "");
-        Log.e("Ftp", chroot);
-        Log.e("Ftp", Environment.getRootDirectory().getPath());
+
 
     }
 
